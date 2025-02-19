@@ -11,7 +11,7 @@ int main() {
     
     int arr[n];
 
-    cout << "Enter " << n << " elements: ";
+    cout << "Enter " << n << " elements: " << endl;
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
         sum += arr[i];
